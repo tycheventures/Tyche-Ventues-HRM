@@ -2004,7 +2004,7 @@ $data[] = array(
 				
 				$this->email->from($user_info[0]->email, $full_name);
 				$this->email->to($cinfo[0]->email);
-				$this->email->cc('hr@mstindia.com');
+				$this->email->cc('hr@tycheventures.com');
 				$this->email->subject($subject);
 				$this->email->message($message);
 				
